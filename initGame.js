@@ -90,7 +90,7 @@ export function initGame() {
         SETTINGS.sceneHeight,
         OIL_TEMPLATE_DEFAULT,
         OIL_COLORS_MAP,
-        'extra-low'
+        'low'
     );
     
     const powerRenderer = new PowerRenderer(sceneCtx, SETTINGS.sceneWidth);
