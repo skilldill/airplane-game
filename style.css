@@ -64,10 +64,10 @@ button:focus-visible {
 }
 
 .controls-row {
-  padding: 10px 0px;
+  padding: 8px 0px;
   display: flex;
   justify-content: center;
-  gap: 95px;
+  gap: 80px;
 }
 
 .milles {
@@ -92,4 +92,27 @@ button:focus-visible {
 
 .resultScreen h2 {
   margin-bottom: 50px;
+}
+
+.btn-arrow {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+}
+
+#btn-arrow-up {
+  background-image: url(./public/arrow-up.png);
+}
+
+#btn-arrow-right {
+  background-image: url(./public/arrow-right.png);
+}
+
+#btn-arrow-down {
+  background-image: url(./public/arrow-down.png);
+}
+
+#btn-arrow-left {
+  background-image: url(./public/arrow-left.png);
 }
