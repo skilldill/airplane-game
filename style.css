@@ -26,6 +26,8 @@ body {
   margin: 0;
   overflow: hidden;
   user-select: none;
+  user-zoom: fixed;
+  touch-action: none;
 }
 
 h1 {
